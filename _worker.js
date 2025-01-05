@@ -1,14 +1,14 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-const rootDomain = "foolvpn.me"; // Ganti dengan domain utama kalian
-const serviceName = "nautica"; // Ganti dengan nama workers kalian
-const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
-const apiEmail = ""; // Ganti dengan email yang kalian gunakan
-const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
-const zoneID = ""; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const rootDomain = "delacantik.web.id"; // Ganti dengan domain utama kalian
+const serviceName = "menu-cf"; // Ganti dengan nama workers kalian
+const apiKey = "pVQJTwCvm2Km7eKivOjT0JRCUAXKeBjZqfRl0tw1"; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
+const apiEmail = "fahmisolahudin02@gmail.com"; // Ganti dengan email yang kalian gunakan
+const accountID = "775b1bf338b9b593739760a6ea3665fa"; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
+const zoneID = "dd39aea85cd7fa733f23a0d3a35e22b8"; // Ganti dengan Zone ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
 let isApiReady = false;
-let proxyIP = "";
+let proxyIP = "178.128.91.137";
 let cachedProxyList = [];
 
 // Constant
